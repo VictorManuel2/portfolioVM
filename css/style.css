@@ -343,8 +343,31 @@ input[type='checkbox'] {
 	color: #ffffff;
 	background-color: #264A71;
 }
+.fondo{
+	background-color: #031426;
+	margin-top: 50px;
+	height: 80px;
+	
+}
+.clr{
+	color: #ffffff;
+	line-height: 250%;
 
-
+}
+.home__photo {
+	/* background-color: aqua; */
+	width: 100%;
+	height: 100%;
+	/* text-align: center; */
+  }
+  .home__photo img {
+	border-radius: 50%;
+	margin-top: 50px;
+	border: 4px solid #ffffff;
+	width: 250px;
+	height: 250px;
+	
+  }
 /**********************/
 /*     Navigation     */
 /**********************/
@@ -355,6 +378,7 @@ input[type='checkbox'] {
 	line-height: 0.875rem;
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
 }
+
 
 .navbar .navbar-brand {
 	padding-top: 0.125rem;
@@ -498,8 +522,8 @@ nav.navbar{
 /*     Header     */
 /******************/
 .header {
-	padding-top: 7rem;
-	padding-bottom: 5.5rem;
+	padding-top: 5rem;
+	padding-bottom: 3.5rem;
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/fondo.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
@@ -587,8 +611,7 @@ nav.navbar{
 /*     Details     */
 /*******************/
 .split .area-1 {
-	height: 430px;
-	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../img/img1.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../img/img2.png') center no-repeat;
 	background-size: cover;
 }
 
@@ -598,7 +621,7 @@ nav.navbar{
 }
 
 .split p {
-	margin-bottom: 2.25rem;
+	margin-bottom: .25rem;
 }
 
 .split .icons-container {
@@ -1088,16 +1111,17 @@ a:hover.back-to-top {
 	/* Details */
 	.split {
 		height: 760px;
+		margin-top: -80px;
 	}
 	
 	.split .area-1 {
-		height: 100%;
+		height: 90%;
 		width: 50%;
 		display: inline-block;
 	}
 	
 	.split .area-2 {
-		height: 100%;
+		height: 50%;
 		width: 50%;
 		display: inline-block;
 		vertical-align: top;
@@ -1105,6 +1129,7 @@ a:hover.back-to-top {
 
 	.split .text-container {
 		width: 400px;
+		margin-top: -20px;
 		margin-left: 3rem;
 	}
 	/* end of details */
